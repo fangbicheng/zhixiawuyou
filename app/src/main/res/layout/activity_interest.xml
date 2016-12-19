@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/interest_icon_tip"/>
+    <EditText
+        android:id="@+id/interest_et_major"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:paddingLeft="10dp"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:hint="@string/interest_hint"
+        android:textSize="15sp"
+        android:background="@drawable/search_bg_edittext"/>
+    <Button
+        android:id="@+id/interest_btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/interest_btn"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/interest_bg_btn"/>
+</LinearLayout>
